@@ -1,0 +1,17 @@
+query {
+  getAllSampleType(enabled: true){
+    id
+    name
+    enabled
+  }
+}
+
+-----------------------------------------------
+
+query {
+  getAllAppType(enabled: true){
+    id
+    name
+    enabled
+  }
+}
